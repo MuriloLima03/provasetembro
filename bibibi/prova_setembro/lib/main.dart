@@ -169,7 +169,7 @@ class _TelaNotasState extends State<TelaNotas> {
   Future<void> recuperarNotas() async {
     try {
       final response = await http.get(
-        Uri.parse('https://run.mocky.io/v3/9edfdbce-15ec-4f34-93ef-c7b49e2ecb33'), // URL da API (preencher corretamente).
+        Uri.parse('https://run.mocky.io/v3/9edfdbce-15ec-4f34-93ef-c7b49e2ecb33'), // URL da API.
       );
 
       if (response.statusCode == 200) {
